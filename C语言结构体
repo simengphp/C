@@ -1,0 +1,21 @@
+C语言结构体解析
+
+数据类型不同，但是它们都表示一个整体，那么我们就需要一个新的数据类型-结构体
+
+for example：
+struct book
+{
+    char title[maxtitl];  一个字符串表示标题title
+    char author[maxtitl]; 一个字符串表示作者author
+    float value;          一个浮点数表示书的价格
+};注意分号不能少
+
+以上解释：
+struct声明接下来你将定义一个结构体，然后book是结构体的标记，里面定义了一些成员，最后以;结束，
+最后的;是不能省略的！
+
+
+
+
+
+
