@@ -1,0 +1,18 @@
+C语言的起别名的操作typedef
+
+typedef就是为了给一些变量或者结构体起别名的一个操作
+
+类型别名：
+typedef unsigned char btye;
+byte a,b ==== unsigned char a,b;
+
+指针别名：
+typedef int *p;
+p q = null ==== int * q
+
+
+结构体的别名：
+typedef struct BOOKS
+{
+    char title[10];
+} book;
