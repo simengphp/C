@@ -27,6 +27,20 @@ int ...
 }stu
 这样我们就能够使用stu进行操作Student
 
+4、结构体的初始化操作
+1）首先我们去定义一个结构体
+struct stu
+{
+    char name[20];
+    int age;
+};
+
+int main()
+{
+    struct stu stu_obj = {"刘柱", 10};  //初始化操作
+    printf("%s\n%d\n", stu_obj.name,stu_obj.age)
+    return 0;
+}
 
 
 
