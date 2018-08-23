@@ -42,6 +42,21 @@ int main()
     return 0;
 }
 
+2）定义一个结构体数组
+struct stu
+{
+    char name[20];
+    int age;
+}
+int main()
+{
+    struct stu stu_obj[2] = {"刘柱1",10,"刘柱2",12};
+    printf("%s\n%d\n",stu_obj[0].name,stu_obj[1].age);
+    return 0;
+}
+
+
+
 
 
 
